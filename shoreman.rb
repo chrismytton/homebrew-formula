@@ -1,8 +1,8 @@
 require 'formula'
 
 class Shoreman < Formula
-  homepage 'https://github.com/hecticjeff/shoreman'
-  head 'https://github.com/hecticjeff/shoreman.git'
+  homepage 'https://github.com/chrismytton/shoreman'
+  head 'https://github.com/chrismytton/shoreman.git'
 
   def install
     bin.install 'shoreman.sh' => 'shoreman'
